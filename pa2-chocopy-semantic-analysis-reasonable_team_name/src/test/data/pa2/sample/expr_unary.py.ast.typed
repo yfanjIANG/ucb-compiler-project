@@ -1,0 +1,53 @@
+{
+  "declarations" : [ ],
+  "statements" : [ {
+    "expr" : {
+      "operator" : "-",
+      "operand" : {
+        "value" : 1,
+        "kind" : "IntegerLiteral",
+        "location" : [ 1, 2, 1, 2 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "int"
+        }
+      },
+      "kind" : "UnaryExpr",
+      "location" : [ 1, 1, 1, 2 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "int"
+      }
+    },
+    "kind" : "ExprStmt",
+    "location" : [ 1, 1, 1, 2 ]
+  }, {
+    "expr" : {
+      "operator" : "not",
+      "operand" : {
+        "value" : false,
+        "kind" : "BooleanLiteral",
+        "location" : [ 2, 5, 2, 9 ],
+        "inferredType" : {
+          "kind" : "ClassValueType",
+          "className" : "bool"
+        }
+      },
+      "kind" : "UnaryExpr",
+      "location" : [ 2, 1, 2, 9 ],
+      "inferredType" : {
+        "kind" : "ClassValueType",
+        "className" : "bool"
+      }
+    },
+    "kind" : "ExprStmt",
+    "location" : [ 2, 1, 2, 9 ]
+  } ],
+  "errors" : {
+    "errors" : [ ],
+    "kind" : "Errors",
+    "location" : [ 0, 0, 0, 0 ]
+  },
+  "kind" : "Program",
+  "location" : [ 1, 1, 2, 10 ]
+}
